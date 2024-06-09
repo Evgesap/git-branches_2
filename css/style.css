@@ -1,4 +1,51 @@
 * {
   padding: 0;
   margin: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  width: auto;
+  height: 100px;
+  background: #f0e68c;
+  padding: 10px 70px;
+}
+
+.header__item {
+  display: flex;
+  flex-wrap: wrap;
+  height: auto;
+  justify-content: space-between;
+  align-items: end;
+}
+
+.header__logo {
+  font-size: 24px;
+  font-style: italic;
+}
+
+.link__logo {
+  text-decoration: none;
+  color: black;
+  font-weight: 400;
+}
+
+nav {
+  display: flex;
+  width: 550px;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.nav-item {
+  list-style-type: none;
+  font-size: 20px;
+}
+
+.header__nav a {
+  text-decoration: none;
+  color: black;
+}
+.header__nav a:hover {
+  color: rgba(233, 41, 82, 0.432);
 }
